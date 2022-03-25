@@ -41,7 +41,7 @@ public class ApplicationTest {
 
     @Test
     public void testWordCountSingle() {
-        int count = app.countWords("test test");
+        int count = app.countWords("test test test");
         assertTrue(count == 1);
     }
 }
