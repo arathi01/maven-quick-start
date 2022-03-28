@@ -28,7 +28,6 @@ public static void main(String[] args){
         app.greet();
         int count = app.countWords("I have four words");
         System.out.println("Word Count: "+count);
-        System.out.println("Thank You...");
         System.out.println("Testing maven goal..");
 
 
