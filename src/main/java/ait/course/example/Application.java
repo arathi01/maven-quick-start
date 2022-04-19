@@ -2,17 +2,16 @@ package ait.course.example;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 
-@RequestMapping("/api/v1")
+//@RequestMapping("/api/v1")
 
 public class Application {
-
-	@RequestMapping("")
-	public String index() {
-		return "Hello World 2022.....";
-	}
+//
+//	@RequestMapping("")
+//	public String index() {
+//		return "Hello World 2022.....";
+//	}
 
 public int countWords(String words){
   String[] seperateWords = StringUtils.split(words,' ');
