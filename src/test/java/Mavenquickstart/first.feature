@@ -1,6 +1,6 @@
-Feature: A simple Karate test that always passes
+Feature: A simple Application count words to test that always passes
 
-  Scenario: Dummy Test
-  Given
-  When
-  Then
+  Scenario: Test a Sample Application
+  
+  Given Wordcount =
+  Then Wordcount

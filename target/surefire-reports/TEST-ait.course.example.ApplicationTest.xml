@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ait.course.example.ApplicationTest" time="0.053" tests="5" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ait.course.example.ApplicationTest" time="0.058" tests="5" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire2187548255452948700\surefirebooter9635644093754195785.jar C:\Users\HP\AppData\Local\Temp\surefire2187548255452948700 2022-04-19T11-18-24_342-jvmRun1 surefire16485077543002090905tmp surefire_0584480784096044018tmp"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire15351055129457703925\surefirebooter14461010791240009484.jar C:\Users\HP\AppData\Local\Temp\surefire15351055129457703925 2022-04-20T16-25-54_862-jvmRun1 surefire15668936551009783121tmp surefire_05208066879214446085tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\HP\eclipse-workspace\maven-quick-start\target\test-classes;C:\Users\HP\eclipse-workspace\maven-quick-start\target\classes;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\HP\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire2187548255452948700\surefirebooter9635644093754195785.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire15351055129457703925\surefirebooter14461010791240009484.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -55,9 +55,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="testWordCountSingle" classname="ait.course.example.ApplicationTest" time="0.006"/>
+  <testcase name="testWordCountSingle" classname="ait.course.example.ApplicationTest" time="0.011"/>
   <testcase name="testWordCountString" classname="ait.course.example.ApplicationTest" time="0"/>
-  <testcase name="testWordCountEmpty" classname="ait.course.example.ApplicationTest" time="0.001"/>
+  <testcase name="testWordCountEmpty" classname="ait.course.example.ApplicationTest" time="0.005"/>
   <testcase name="testWordCountMore" classname="ait.course.example.ApplicationTest" time="0">
     <skipped/>
   </testcase>
